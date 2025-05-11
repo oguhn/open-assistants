@@ -11,7 +11,7 @@ import os
 
 st.sidebar.title("API Key")
 st.session_state.api_key = st.sidebar.text_input("Enter your OpenAI API Key", type="password")
-st.sidebar.markdown("GitHub Repo:: ")
+st.sidebar.markdown("GitHub Repo:: https://github.com/oguhn/open-assistants/blob/main/app.py")
 
 if not st.session_state.api_key:
     st.warning("Please enter your OpenAI API Key in the sidebar.")
